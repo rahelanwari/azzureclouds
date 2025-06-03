@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arivana - Your Digital Travel Companion</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Horizon:wght@700&display=swap" rel="stylesheet">
+    <!-- Voeg Horizon Outliners lokaal toe of via @font-face als deze niet op Google Fonts staat -->
+</head>
+<body>
+    <!-- Floating Navigation -->
+    <nav class="floating-nav">
+        <ul class="nav-menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="bestemmingen.html">Bestemmingen</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <span id="liveClock" class="live-clock"></span>
+        <a href="premium.html" class="premium-btn">Premium</a>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <img src="images/airplane logo.png" alt="Airplane Logo" class="hero-airplane-logo">
+        <img src="images/heart logo.png" alt="Heart Logo" class="hero-heart-logo">
+        <img src="images/arivana text.png" alt="Arivana Logo" class="arivana-logo-img">
+        <div style="display: flex; flex-direction: column; align-items: flex-end; margin-top: -1.2rem;">
+            <b class="hero-slogan"
+               style="text-align:right; font-size:2.5rem; color:#4a12ba; margin: 0 2vw 0.7rem 0; max-width: 350px;">
+                Travel smarter, not harder.
+        </b>
+            <div class="hero-content">
+                <div class="hero-buttons">
+                    <a href="bestemmingen.html" class="btn btn-primary">Ontdek Bestemmingen</a>
+                    <a href="#features" class="btn btn-secondary">Meer Informatie</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features" id="features">
+        <div class="container">
+            <h2 class="section-title">Waarom kiezen voor Arivana?</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">🌍</div>
+                    <h3>Gestructureerde Informatie</h3>
+                    <p>Van continent naar land naar accommodatie - alles overzichtelijk georganiseerd voor de perfecte reiservaring.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">💰</div>
+                    <h3>Slimme Prijsvergelijking</h3>
+                    <p>Vergelijk prijzen van verschillende aanbieders en vind altijd de beste deal voor uw luxe reiservaring.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🌱</div>
+                    <h3>Green Modus</h3>
+                    <p>100% duurzame reisopties voor de bewuste reiziger die de planeet wil beschermen.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">⭐</div>
+                    <h3>Premium Ervaring</h3>
+                    <p>Exclusieve functies, AI-routesuggesties en een downloadbare PDF-planner voor Premium-leden.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">💝</div>
+                    <h3>Persoonlijke Wishlist</h3>
+                    <p>Bewaar uw favoriete bestemmingen en bouw uw droomreis stap voor stap op.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🤖</div>
+                    <h3>AI-Chatbot Assistentie</h3>
+                    <p>Krijg gepersonaliseerde aanbevelingen en hulp bij het plannen van uw perfecte reis.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Green Mode Toggle -->
+    <div class="green-toggle">
+        <button class="green-switch" id="greenToggle" title="Green Mode">
+            🌗
+        </button>
+    </div>
+
+    <!-- Scroll to Top Button -->
+    <button id="scrollTopBtn" title="Naar boven">↑</button>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <span>&copy; 2025 Arivana</span>
+            <div class="socials">
+                <a href="https://instagram.com/arivana" title="Instagram" target="_blank" rel="noopener">
+                    <img src="images/insta logo.webp" alt="Instagram">
+                </a>
+                <a href="https://facebook.com/arivana" title="Facebook" target="_blank" rel="noopener">
+                    <img src="images/facebook logo.png" alt="Facebook">
+                </a>
+                <a href="https://x.com/arivana" title="X" target="_blank" rel="noopener">
+                    <img src="images/x logo.webp" alt="X">
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="scripts/script.js"></script>
+</body>
+</html>

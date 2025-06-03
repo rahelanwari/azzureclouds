@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voertuigen - Arivana</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigatie -->
+    <!-- Bijvoorbeeld in restaurants.html, hotels.html, vervoer.html, amsterdam.html, etc. -->
+    <nav class="floating-nav">
+        <ul class="nav-menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="bestemmingen.html">Bestemmingen</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <span id="liveClock" class="live-clock"></span>
+        <a href="premium.html" class="premium-btn">Premium</a>
+    </nav>
+
+    <section class="hero">
+        <video class="hero-video-bg" autoplay muted loop playsinline>
+            <source src="videos/amsterdam/vervoer.mp4" type="video/mp4">
+            Je browser ondersteunt geen video.
+        </video>
+    </section>
+
+    <!-- Voor vervoer amsterdam.html -->
+    <section class="features">
+        <a href="javascript:history.back()" class="arivana-back-btn">
+            ◀
+        </a>
+        <div class="container vervoer-container">
+            <h2 class="section-title">Vervoer in Amsterdam</h2>
+            <div class="amsterdam-vervoer-info">
+                <p class="vervoer-intro">
+                    Amsterdam is supertoegankelijk, met OV, fiets en treinopties.
+                </p>
+                <ul class="vervoer-list">
+                    <li>
+                        <h3>🚶 Te voet</h3>
+                        <p>Het centrum is compact – wandel makkelijk van museum naar markt.</p>
+                    </li>
+                    <li>
+                        <h3>🚲 Fiets</h3>
+                        <p>Altijd snel, leuk én lokaal.<br>
+                            🔗 <a href="https://www.macbike.nl" target="_blank" rel="noopener" class="vervoer-link">macbike.nl</a> |
+                            🔗 <a href="https://www.yellowbike.nl" target="_blank" rel="noopener" class="vervoer-link">yellowbike.nl</a>
+                        </p>
+                    </li>
+                    <li>
+                        <h3>🚋 Tram / Metro / Bus (GVB)</h3>
+                        <p>Plan je route via:<br>
+                            🔗 <a href="https://9292.nl" target="_blank" rel="noopener" class="vervoer-link">9292.nl</a><br>
+                            OV-kaarten:<br>
+                            🔗 <a href="https://www.gvb.nl/tickets" target="_blank" rel="noopener" class="vervoer-link">gvb.nl/tickets</a>
+                        </p>
+                    </li>
+                    <li>
+                        <h3>🚄 Trein (NS)</h3>
+                        <p>Voor aankomst via Schiphol of trips naar andere steden.<br>
+                            🔗 <a href="https://www.ns.nl" target="_blank" rel="noopener" class="vervoer-link">ns.nl</a>
+                        </p>
+                    </li>
+                    <li>
+                        <h3>🚖 Taxi & Uber</h3>
+                        <p>Uber werkt snel en betaalbaar; reguliere taxi’s zijn op straat beschikbaar.<br>
+                            🔗 <a href="https://www.uber.com/nl/nl/" target="_blank" rel="noopener" class="vervoer-link">uber.com</a>
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+     <footer class="footer">
+        <div class="footer-content">
+            <span>&copy; 2025 Arivana</span>
+            <div class="socials">
+                <a href="https://instagram.com/arivana" title="Instagram" target="_blank" rel="noopener">
+                    <img src="images/insta logo.webp" alt="Instagram">
+                </a>
+                <a href="https://facebook.com/arivana" title="Facebook" target="_blank" rel="noopener">
+                    <img src="images/facebook logo.png" alt="Facebook">
+                </a>
+                <a href="https://x.com/arivana" title="X" target="_blank" rel="noopener">
+                    <img src="images/x logo.webp" alt="X">
+                </a>
+            </div>
+        </div>
+    </footer>
+    <script src="scripts/script.js"></script>
+</body>
+</html>

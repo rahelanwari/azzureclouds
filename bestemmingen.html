@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bestemmingen - Arivana</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigatie -->
+   <nav class="floating-nav">
+        <ul class="nav-menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="bestemmingen.html">Bestemmingen</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <span id="liveClock" class="live-clock"></span>
+        <a href="premium.html" class="premium-btn">Premium</a>
+    </nav>
+
+    <section class="hero">
+        <video class="hero-video-bg" autoplay muted loop playsinline>
+            <source src="images/earth video background.mp4" type="video/mp4">
+            Je browser ondersteunt geen video.
+        </video>
+    </section>
+
+    <section class="features">
+        <div class="container">
+            <h2 class="section-title">Populaire Bestemmingen</h2>
+
+            <div class="ask-persons" style="margin-bottom:2.5rem;">
+                <label for="personen-select" style="font-weight:600; font-size:1.1rem; color:#4a12ba;">
+                    Met hoeveel personen reist u?
+                </label>
+                <select id="personen-select" name="personen" style="margin-left:1rem; padding:0.4rem 1rem; border-radius:8px; border:1px solid #ccc; font-size:1rem;">
+                    <option value="1">1 persoon</option>
+                    <option value="2">2 personen</option>
+                    <option value="3">3 personen</option>
+                    <option value="4">4 personen</option>
+                    <option value="5">5 personen</option>
+                    <option value="6">6 personen</option>
+                    <option value="7">7 personen</option>
+                    <option value="8">8 personen</option>
+                    <option value="9+">9 of meer</option>
+                </select>
+            </div>
+
+            <div class="continent-block">
+                <h3>🌍 Europa</h3>
+                <ul class="destination-list">
+                    <li>
+                        <a href="amsterdam.html" class="destination-link">
+                            Amsterdam, Nederland
+                        </a>
+                        <span class="ticket-price" data-base="120">Tickets vanaf €120 p.p.</span>
+                    </li>
+                    <li>
+                        <a href="barcelona.html" class="destination-link">
+                            Barcelona, Spanje
+                        </a>
+                        <span class="ticket-price" data-base="140">Tickets vanaf €140 p.p.</span>
+                    </li>
+                    <li>
+                        Londen, Verenigd Koninkrijk
+                        <span class="ticket-price" data-base="160">Tickets vanaf €160 p.p.</span>
+                    </li>
+                    <li>
+                        Moskou, Rusland
+                        <span class="ticket-price" data-base="180">Tickets vanaf €180 p.p.</span>
+                    </li>
+                    <li>
+                        Parijs, Frankrijk
+                        <span class="ticket-price" data-base="150">Tickets vanaf €150 p.p.</span>
+                    </li>
+                    <li>
+                        Rome, Italië
+                        <span class="ticket-price" data-base="170">Tickets vanaf €170 p.p.</span>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="continent-block">
+                <h3>🌏 Azië</h3>
+                <ul class="destination-list">
+                    <li>
+                        Bali, Indonesië
+                        <span class="ticket-price" data-base="200">Tickets vanaf €200 p.p.</span>
+                    </li>
+                    <li>
+                        Dubai, Verenigde Arabische Emiraten
+                        <span class="ticket-price" data-base="220">Tickets vanaf €220 p.p.</span>
+                    </li>
+                    <li>
+                        Hongkong, China
+                        <span class="ticket-price" data-base="210">Tickets vanaf €210 p.p.</span>
+                    </li>
+                    <li>
+                        Maldiven
+                        <span class="ticket-price" data-base="250">Tickets vanaf €250 p.p.</span>
+                    </li>
+                    <li>
+                        Tokyo, Japan
+                        <span class="ticket-price" data-base="230">Tickets vanaf €230 p.p.</span>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="continent-block">
+                <h3>🌍 Afrika</h3>
+                <ul class="destination-list">
+                    <li>
+                        Caïro, Egypte
+                        <span class="ticket-price" data-base="190">Tickets vanaf €190 p.p.</span>
+                    </li>
+                    <li>
+                        Casablanca, Marokko
+                        <span class="ticket-price" data-base="210">Tickets vanaf €210 p.p.</span>
+                    </li>
+                    <li>
+                        Kaapstad, Zuid-Afrika
+                        <span class="ticket-price" data-base="230">Tickets vanaf €230 p.p.</span>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="continent-block">
+                <h3>🌎 Noord-Amerika & Caribisch gebied</h3>
+                <ul class="destination-list">
+                    <li>
+                        Bahama's, Caribisch gebied
+                        <span class="ticket-price" data-base="240">Tickets vanaf €240 p.p.</span>
+                    </li>
+                    <li>
+                        Los Angeles, Verenigde Staten
+                        <span class="ticket-price" data-base="260">Tickets vanaf €260 p.p.</span>
+                    </li>
+                    <li>
+                        New York, Verenigde Staten
+                        <span class="ticket-price" data-base="250">Tickets vanaf €250 p.p.</span>
+                    </li>
+                    <li>
+                        Toronto, Canada
+                        <span class="ticket-price" data-base="270">Tickets vanaf €270 p.p.</span>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="continent-block">
+                <h3>🌎 Zuid-Amerika</h3>
+                <ul class="destination-list">
+                    <li>
+                        Rio de Janeiro, Brazilië
+                        <span class="ticket-price" data-base="210">Tickets vanaf €210 p.p.</span>
+                    </li>
+                    <li>
+                        Buenos Aires, Argentinië
+                        <span class="ticket-price" data-base="220">Tickets vanaf €220 p.p.</span>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="continent-block">
+                <h3>🌏 Oceanië</h3>
+                <ul class="destination-list">
+                    <li>
+                        Sydney, Australië
+                        <span class="ticket-price" data-base="230">Tickets vanaf €230 p.p.</span>
+                    </li>
+                    <li>
+                        Auckland, Nieuw-Zeeland
+                        <span class="ticket-price" data-base="240">Tickets vanaf €240 p.p.</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Verwijder of comment deze regel -->
+    <!-- <div id="globeViz" style="width:100%;height:600px;"></div> -->
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <span>&copy; 2025 Arivana</span>
+            <div class="socials">
+                <a href="https://instagram.com/arivana" title="Instagram" target="_blank" rel="noopener">
+                    <img src="images/insta logo.webp" alt="Instagram">
+                </a>
+                <a href="https://facebook.com/arivana" title="Facebook" target="_blank" rel="noopener">
+                    <img src="images/facebook logo.png" alt="Facebook">
+                </a>
+                <a href="https://x.com/arivana" title="X" target="_blank" rel="noopener">
+                    <img src="images/x logo.webp" alt="X">
+                </a>
+            </div>
+        </div>
+    </footer>
+     <script src="scripts/script.js"></script>
+     <script>
+document.addEventListener('DOMContentLoaded', function() {
+    const select = document.getElementById('personen-select');
+    const prices = document.querySelectorAll('.ticket-price');
+
+    function updatePrices() {
+        const personen = parseInt(select.value) || 1;
+        prices.forEach(span => {
+            const base = parseInt(span.dataset.base, 10);
+            const totaal = base * personen;
+            span.textContent = `Tickets vanaf €${totaal} (${personen} ${personen === 1 ? 'persoon' : 'personen'})`;
+        });
+    }
+
+    select.addEventListener('change', updatePrices);
+    updatePrices();
+});
+</script>
+</body>
+</html>
